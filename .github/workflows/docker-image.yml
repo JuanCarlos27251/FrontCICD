@@ -31,11 +31,11 @@ jobs:
       id: docker_meta
       uses: docker/metadata-action@v5
       with:
-        images: juancarlospina/nube.sanvalero:frontendv3
+        images: juancarlospina/nube.sanvalero
         flavor: |
           latest=false
         tags: |
-          type=raw,value=00
+          type=raw,value=01
 
     - name: Build and Push to Docker Hub
       id: docker_build
