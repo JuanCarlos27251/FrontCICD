@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  EKS_CLUSTER_NAME: AA_Cluster
+  EKS_CLUSTER_NAME: Cluster
   AWS_REGION: us-east-1
 
 jobs:
