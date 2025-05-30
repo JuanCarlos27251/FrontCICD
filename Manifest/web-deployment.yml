@@ -34,6 +34,6 @@ spec:
     spec:
       containers:
       - name: fronted
-        image: juancarlospina/nube.sanvalero:02 # Reemplaza esto con tu imagen Docker del backend
+        image: juancarlospina/nube.sanvalero:03 # Reemplaza esto con tu imagen Docker del backend
         ports:
         - containerPort: 80
